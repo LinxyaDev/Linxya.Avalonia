@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32505.426
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{09B5D07F-1884-43BC-8053-543FF459268C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA0A189D-8FD8-40A7-8860-FEC67470D55B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{45D812EA-6205-4167-809A-D7561D6C630A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linxya.Avalonia", "src\Linxya.Avalonia\Linxya.Avalonia.csproj", "{17C52919-DD44-4434-840E-1A73DA397D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17C52919-DD44-4434-840E-1A73DA397D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C52919-DD44-4434-840E-1A73DA397D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C52919-DD44-4434-840E-1A73DA397D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C52919-DD44-4434-840E-1A73DA397D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17C52919-DD44-4434-840E-1A73DA397D5A} = {BA0A189D-8FD8-40A7-8860-FEC67470D55B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {864061A4-BD98-405B-BB8C-4D29A18466DB}
+	EndGlobalSection
+EndGlobal
